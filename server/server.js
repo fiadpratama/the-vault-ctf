@@ -91,24 +91,20 @@ app.post('/api/vault/verify-flag', (req, res) => {
         return res.status(200).json({
             success: true,
             title: "HALL OF FAME",
-            message: "SYSTEM OVERRIDE SUCCESSFUL\n\n" +
-                     "> ACCESS GRANTED\n" +
-                     "> CLEARANCE LEVEL: OMNI\n\n" +
-                     "To the unknown entity:\n\n" +
-                     "The parameters of this simulation were designed to be unbreakable. The cryptographic handshake, the native memory obfuscation, the network payload encryption—all intended to filter out the unworthy.\n\n" +
-                     "You have systematically dismantled every security protocol. The C++ JNI bridge was bypassed. The AES-256-GCM cipher was compromised. The hidden X-Secret-Multiplier header was intercepted.\n\n" +
-                     "This is no longer a test. You have proven mastery over both dynamic analysis and network penetration.\n\n" +
-                     "The Vault is now fully under your control. The data is yours.\n\n" +
-                     "End of transmission.\n\n\n\n\n" +
-                     "PROJECT DIRECTOR\n" +
-                     "The Architect\n\n\n" +
-                     "TARGET OPERATIVE\n" +
-                     "Classified / Unknown\n\n\n" +
-                     "AUDIO FRAMEWORK\n" +
-                     "W.A. Mozart - Dies Irae (Requiem in D minor)\n\n\n" +
-                     "INFRASTRUCTURE\n" +
-                     "Android Native C++ / Vercel Edge Network\n\n\n\n\n\n\n\n" +
-                     "> CONNECTION TERMINATED.\n\n\n" +
+            message: "SECURITY ASSESSMENT COMPLETE\n\n" +
+                     "[+] STATUS: VULNERABILITY EXPLOITED\n" +
+                     "[+] TARGET: THE VAULT CORE INFRASTRUCTURE\n\n" +
+                     "Congratulations on successfully completing this security assessment.\n\n" +
+                     "This challenge was designed to evaluate advanced reverse engineering, dynamic instrumentation, and cryptographic analysis skills.\n\n" +
+                     "By extracting the backdoor code from the native C++ layer (JNI) and intercepting the encrypted AES-256-GCM network payloads, you have demonstrated exceptional proficiency in mobile application security and protocol manipulation.\n\n" +
+                     "This concludes the technical evaluation.\n\n\n\n\n" +
+                     "DEVELOPER & ARCHITECT\n" +
+                     "Fiad Pratama\n\n\n" +
+                     "TECHNOLOGY STACK\n" +
+                     "Android (Java/C++) & Node.js (Vercel Edge)\n\n\n" +
+                     "BACKGROUND SCORE\n" +
+                     "W.A. Mozart - Dies Irae (Requiem in D minor)\n\n\n\n\n\n\n\n" +
+                     "[+] SESSION TERMINATED.\n\n\n" +
                      "FLAG ACQUIRED:\n" + FLAG
         });
     }
